@@ -1,0 +1,263 @@
+
+gameAtlas.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 1, 543
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+layerOneSecond
+  rotate: false
+  xy: 1, 61
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+pallete
+  rotate: false
+  xy: 1, 1
+  size: 467, 58
+  orig: 467, 58
+  offset: 0, 0
+  index: -1
+barrel
+  rotate: false
+  xy: 803, 762
+  size: 175, 261
+  orig: 175, 261
+  offset: 0, 0
+  index: -1
+tubeytexture
+  rotate: false
+  xy: 980, 775
+  size: 43, 248
+  orig: 43, 248
+  offset: 0, 0
+  index: -1
+doorTwo
+  rotate: false
+  xy: 803, 381
+  size: 31, 379
+  orig: 31, 379
+  offset: 0, 0
+  index: -1
+door
+  rotate: false
+  xy: 836, 427
+  size: 31, 333
+  orig: 31, 333
+  offset: 0, 0
+  index: -1
+elevatorTwo
+  rotate: false
+  xy: 470, 28
+  size: 379, 31
+  orig: 379, 31
+  offset: 0, 0
+  index: -1
+tube
+  rotate: false
+  xy: 869, 521
+  size: 28, 239
+  orig: 28, 239
+  offset: 0, 0
+  index: -1
+canary1
+  rotate: false
+  xy: 803, 174
+  size: 206, 205
+  orig: 206, 205
+  offset: 0, 0
+  index: -1
+fork
+  rotate: false
+  xy: 470, 16
+  size: 186, 10
+  orig: 186, 10
+  offset: 0, 0
+  index: -1
+wheeltexture
+  rotate: false
+  xy: 851, 29
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 899, 691
+  size: 64, 69
+  orig: 64, 69
+  offset: 0, 0
+  index: -1
+
+gameAtlas2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+layerTwoSecond
+  rotate: false
+  xy: 1, 515
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+box
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ModelTen
+  rotate: false
+  xy: 515, 169
+  size: 418, 344
+  orig: 418, 344
+  offset: 0, 0
+  index: -1
+elevator
+  rotate: false
+  xy: 515, 90
+  size: 427, 77
+  orig: 427, 77
+  offset: 0, 0
+  index: -1
+
+gameAtlas3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+SmallTruck
+  rotate: false
+  xy: 1, 771
+  size: 631, 243
+  orig: 631, 243
+  offset: 0, 0
+  index: -1
+ModelEleven
+  rotate: false
+  xy: 634, 718
+  size: 388, 296
+  orig: 388, 296
+  offset: 0, 0
+  index: -1
+model10Wheels
+  rotate: false
+  xy: 1, 393
+  size: 628, 376
+  orig: 628, 376
+  offset: 0, 0
+  index: -1
+model9Wheels
+  rotate: false
+  xy: 1, 1
+  size: 615, 390
+  orig: 615, 390
+  offset: 0, 0
+  index: -1
+ModelNine
+  rotate: false
+  xy: 618, 77
+  size: 400, 314
+  orig: 400, 314
+  offset: 0, 0
+  index: -1
+ModelFour
+  rotate: false
+  xy: 631, 395
+  size: 335, 321
+  orig: 335, 321
+  offset: 0, 0
+  index: -1
+
+gameAtlas4.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+fuelCanRight
+  rotate: false
+  xy: 1, 407
+  size: 460, 598
+  orig: 460, 598
+  offset: 0, 0
+  index: -1
+model1Wheels
+  rotate: false
+  xy: 463, 576
+  size: 536, 429
+  orig: 536, 429
+  offset: 0, 0
+  index: -1
+model5Wheels
+  rotate: false
+  xy: 1, 27
+  size: 599, 378
+  orig: 599, 378
+  offset: 0, 0
+  index: -1
+ModelFive
+  rotate: false
+  xy: 602, 224
+  size: 381, 350
+  orig: 381, 350
+  offset: 0, 0
+  index: -1
+cage
+  rotate: false
+  xy: 602, 1
+  size: 262, 221
+  orig: 262, 221
+  offset: 0, 0
+  index: -1
+
+gameAtlas5.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+model11Wheels
+  rotate: false
+  xy: 1, 658
+  size: 596, 341
+  orig: 596, 341
+  offset: 0, 0
+  index: -1
+model4Wheels
+  rotate: false
+  xy: 1, 302
+  size: 525, 354
+  orig: 525, 354
+  offset: 0, 0
+  index: -1
+model12Wheels
+  rotate: false
+  xy: 1, 1
+  size: 530, 299
+  orig: 530, 299
+  offset: 0, 0
+  index: -1
+ModelOne
+  rotate: false
+  xy: 599, 598
+  size: 292, 401
+  orig: 292, 401
+  offset: 0, 0
+  index: -1
+ModelTwelve
+  rotate: false
+  xy: 528, 339
+  size: 327, 257
+  orig: 327, 257
+  offset: 0, 0
+  index: -1
+gem
+  rotate: false
+  xy: 533, 83
+  size: 292, 254
+  orig: 292, 254
+  offset: 0, 0
+  index: -1

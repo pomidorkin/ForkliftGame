@@ -1,0 +1,375 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	good_times: {
+		file: good times.fnt
+	}
+	myfont: {
+		file: myfont.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	RGBA_255_0_0_255: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	RGBA_255_190_45_255: {
+		r: 1
+		g: 0.74509805
+		b: 0.1764706
+		a: 1
+	}
+	RGBA_255_255_255_255: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.ray3k.tenpatch.TenPatchDrawable: {
+	textButtonPatched: {
+		region: textButton
+		horizontalStretchAreas: [ 48, 67 ]
+		verticalStretchAreas: [ 42, 69 ]
+		tiling: false
+		minWidth: 106
+		minHeight: 98
+		rightWidth: 38
+		leftWidth: 48
+		bottomHeight: 42
+		topHeight: 28
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	dialogPached: {
+		region: dialog
+		horizontalStretchAreas: [ 37, 280 ]
+		verticalStretchAreas: [ 48, 198 ]
+		tiling: false
+		minWidth: 1
+		minHeight: 1
+		rightWidth: 46
+		leftWidth: 44
+		bottomHeight: 44
+		topHeight: 52
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	leftButtonPatched: {
+		region: leftButton
+		horizontalStretchAreas: [ 0, 60 ]
+		verticalStretchAreas: [ 0, 77 ]
+		tiling: false
+		minWidth: 61
+		minHeight: 78
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	textButtonPushedPatched: {
+		region: textButtonPushed
+		horizontalStretchAreas: [ 48, 67 ]
+		verticalStretchAreas: [ 42, 69 ]
+		tiling: false
+		minWidth: 106
+		minHeight: 98
+		rightWidth: 39
+		leftWidth: 47
+		bottomHeight: 43
+		topHeight: 27
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	squereBackgroundPatched: {
+		region: squereBackground
+		horizontalStretchAreas: [ 9, 441 ]
+		verticalStretchAreas: [ 11, 64 ]
+		tiling: false
+		minWidth: 0
+		minHeight: 70
+		rightWidth: 7
+		leftWidth: 7
+		bottomHeight: 12
+		topHeight: 5
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	squereBarPatched: {
+		region: squereBar
+		horizontalStretchAreas: [ 0, 429 ]
+		verticalStretchAreas: [ 14, 62 ]
+		tiling: false
+		minWidth: 0
+		minHeight: 70
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	toucpadBackgroundPatched: {
+		region: toucpadBackground
+		horizontalStretchAreas: [ 35, 37 ]
+		verticalStretchAreas: [ 35, 37 ]
+		tiling: false
+		minWidth: 74
+		minHeight: 74
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	toucpadKnobPatched: {
+		region: toucpadKnob
+		horizontalStretchAreas: [ 19, 52 ]
+		verticalStretchAreas: [ 20, 53 ]
+		tiling: false
+		minWidth: 74
+		minHeight: 74
+		rightWidth: 22
+		leftWidth: 19
+		bottomHeight: 20
+		topHeight: 19
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	squereBarSmallPatched: {
+		region: squereBarSmall
+		horizontalStretchAreas: [ 4, 175 ]
+		verticalStretchAreas: [ 5, 25 ]
+		tiling: false
+		minWidth: 0
+		minHeight: 28
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	squereBackgroundSmallPatched: {
+		region: squereBackgroundSmall
+		horizontalStretchAreas: [ 3, 176 ]
+		verticalStretchAreas: [ 4, 25 ]
+		tiling: false
+		minWidth: 180
+		minHeight: 28
+		rightWidth: 2
+		leftWidth: 3
+		bottomHeight: 4
+		topHeight: 1
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	dollarButtonPatched: {
+		region: dollarButton
+		horizontalStretchAreas: [ 51, 72 ]
+		verticalStretchAreas: [ 0, 97 ]
+		tiling: false
+		minWidth: 145
+		minHeight: 98
+		rightWidth: 76
+		leftWidth: 32
+		bottomHeight: 26
+		topHeight: 28
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	gemButtonPatched: {
+		region: gemButton
+		horizontalStretchAreas: [ 51, 74 ]
+		verticalStretchAreas: [ 0, 97 ]
+		tiling: false
+		minWidth: 145
+		minHeight: 98
+		rightWidth: 76
+		leftWidth: 26
+		bottomHeight: 22
+		topHeight: 27
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	dollarButtonPushedPatched: {
+		region: dollarButtonPushed
+		horizontalStretchAreas: [ 49, 73 ]
+		verticalStretchAreas: [ 0, 97 ]
+		tiling: false
+		minWidth: 145
+		minHeight: 98
+		rightWidth: 75
+		leftWidth: 21
+		bottomHeight: 26
+		topHeight: 23
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	gemButtonPushedPatched: {
+		region: gemButtonPushed
+		horizontalStretchAreas: [ 49, 74 ]
+		verticalStretchAreas: [ 0, 97 ]
+		tiling: false
+		minWidth: 145
+		minHeight: 98
+		rightWidth: 71
+		leftWidth: 23
+		bottomHeight: 23
+		topHeight: 25
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	leftButton: {
+		imageUp: leftButtonPatched
+		imageDown: leftButtonPushed
+	}
+	rightButton: {
+		imageUp: rightsButton
+		imageDown: rightsButtonPushed
+	}
+	pauseButton: {
+		imageUp: pause
+		imageDown: pausePushed
+	}
+	cannisterButton: {
+		imageUp: cannisterButton
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: myfont
+		fontColor: RGBA_255_190_45_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: squereBackgroundSmall
+		knobBefore: squereBarSmallPatched
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: squereBackgroundSmall
+		knob: squereSlider
+		knobBefore: squereBarSmallPatched
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: myfont
+		up: textButtonPatched
+		down: textButtonPushedPatched
+	}
+	dollarButton: {
+		font: myfont
+		up: dollarButtonPatched
+		down: dollarButtonPushedPatched
+	}
+	gemButton: {
+		font: myfont
+		up: gemButtonPatched
+		down: gemButtonPushedPatched
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: myfont
+		fontColor: RGBA_255_255_255_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: toucpadBackgroundPatched
+		knob: toucpadKnobPatched
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: dialogPached
+		titleFont: good_times
+		titleFontColor: RGBA_255_190_45_255
+	}
+}
+}
