@@ -310,8 +310,8 @@ public class ForkliftActorBase extends Actor {
 
         //Fuel burning speed
         if (fuelTank > 0){
-//            fuelTank -= 1f * delta;
-            fuelTank -= 0f * delta;
+            fuelTank -= 1f * delta;
+//            fuelTank -= 0f * delta;
         }
 
     }
@@ -323,9 +323,9 @@ public class ForkliftActorBase extends Actor {
     public void moveForkliftRight(){
         System.out.println("Key D is pressed");
         //Movement logic with interpolation
-//        frontWheelJoint.setMotorSpeed(-1.3f/model.getFrontWheelRadius());
-        float motorSpeed = (-1.3f/model.getFrontWheelRadius());
-        frontWheelJoint.setMotorSpeed(frontWheelJoint.getMotorSpeed() + ( motorSpeed - frontWheelJoint.getMotorSpeed()) * 0.025f);
+        frontWheelJoint.setMotorSpeed(-1.3f/model.getFrontWheelRadius());
+//        float motorSpeed = (-1.3f/model.getFrontWheelRadius());
+//        frontWheelJoint.setMotorSpeed(frontWheelJoint.getMotorSpeed() + ( motorSpeed - frontWheelJoint.getMotorSpeed()) * 0.025f);
     }
 
     public void moveForkliftLeft(){

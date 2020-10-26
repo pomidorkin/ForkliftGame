@@ -320,7 +320,7 @@ public class ChoosingScreen extends ScreenAdapter {
 //        table.row();
 //        table.add(startButton).colspan(2).padBottom(padding);
 
-        table.debug();
+//        table.debug();
 
         Table main = new Table();
         main.add().width(1200 / 2f).height(1200 / ratio);

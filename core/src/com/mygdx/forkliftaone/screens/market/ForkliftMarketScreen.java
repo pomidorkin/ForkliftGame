@@ -311,7 +311,7 @@ public class ForkliftMarketScreen extends ScreenAdapter {
 
         table.row();
         table.add(backButton).colspan(3).padBottom(30);
-        table.debug();
+//        table.debug();
 
 
         Table main = new Table();

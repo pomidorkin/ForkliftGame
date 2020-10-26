@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.mygdx.forkliftaone.maps.CandyMap;
 import com.mygdx.forkliftaone.maps.CustomTestMap;
 import com.mygdx.forkliftaone.maps.MapBase;
 import com.mygdx.forkliftaone.maps.TestMap;
@@ -14,25 +15,28 @@ import com.mygdx.forkliftaone.maps.TestMap;
 public class MapModel {
     public enum MapName{
         CUSTOM,
+        CANDY,
         TEST
     }
 
     private MapBase map;
-    private TextureRegion backgroundTexture, middleTexture, frontTexture;
+    private TextureRegion backgroundTexture;
 
     public  MapModel(MapName md, AssetManager assetManager, World world, OrthographicCamera camera, Stage stage, TextureAtlas atlas){
         switch (md){
             case CUSTOM:
-                this.backgroundTexture = atlas.findRegion(RegionNames.BOX_TEXTURE);
-                this.middleTexture = atlas.findRegion(RegionNames.TEST_BACKGROUND);
+                map = new CustomTestMap(world, assetManager, camera, stage, atlas);
+                this.backgroundTexture = map.getBackTexture();
+                break;
 
-                map = new CustomTestMap(world, assetManager, backgroundTexture, middleTexture, camera, stage, atlas);
+            case CANDY:
+                map = new CandyMap(world, assetManager, camera, stage, atlas);
+                this.backgroundTexture = map.getBackTexture();
                 break;
 
             case TEST:
-                this.backgroundTexture = atlas.findRegion(RegionNames.TEST_BACKGROUND);
-                this.middleTexture = atlas.findRegion(RegionNames.BOX_TEXTURE);
-                map = new TestMap(world, assetManager, backgroundTexture, middleTexture, camera, stage, atlas);
+                map = new TestMap(world, assetManager, camera, stage, atlas);
+                this.backgroundTexture = map.getBackTexture();
                 break;
         }
 
@@ -42,12 +46,14 @@ public class MapModel {
         switch (md){
             case CUSTOM:
                 this.backgroundTexture = atlas.findRegion(RegionNames.BOX_TEXTURE);
-                this.middleTexture = atlas.findRegion(RegionNames.TEST_BACKGROUND);
+                break;
+
+            case CANDY:
+                this.backgroundTexture = atlas.findRegion(RegionNames.MAP_CANDY_BACK);
                 break;
 
             case TEST:
                 this.backgroundTexture = atlas.findRegion(RegionNames.TEST_BACKGROUND);
-                this.middleTexture = atlas.findRegion(RegionNames.BOX_TEXTURE);
                 break;
         }
 
@@ -59,13 +65,5 @@ public class MapModel {
 
     public TextureRegion getBackgroundTexture() {
         return backgroundTexture;
-    }
-
-    public TextureRegion getMiddleTexture() {
-        return middleTexture;
-    }
-
-    public TextureRegion getFrontTexture() {
-        return frontTexture;
     }
 }

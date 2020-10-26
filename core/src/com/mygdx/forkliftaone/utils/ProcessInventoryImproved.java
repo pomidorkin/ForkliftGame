@@ -162,7 +162,7 @@ public class ProcessInventoryImproved {
 
             // Map saving
             MapData[] md;
-            md = new MapData[2];
+            md = new MapData[3];
             md[0] = new MapData();
             md[0].setName(MapModel.MapName.CUSTOM);
             md[0].setPrice(new PriceHandler(100, true));
@@ -172,6 +172,11 @@ public class ProcessInventoryImproved {
             md[1].setName(MapModel.MapName.TEST);
             md[1].setPrice(new PriceHandler(500, true));
             md[1].setPurchased(true);
+
+            md[2] = new MapData();
+            md[2].setName(MapModel.MapName.CANDY);
+            md[2].setPrice(new PriceHandler(499, false));
+            md[2].setPurchased(false);
 
 
             GeneralData gd = new GeneralData(fd, md);

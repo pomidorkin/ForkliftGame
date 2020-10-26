@@ -57,7 +57,7 @@ public class BackToMenuDialog extends Dialog {
         row();
         add().height(((1200 / ratio / 2f) / 4f));
 
-        debug();
+//        debug();
     }
 
     @Override

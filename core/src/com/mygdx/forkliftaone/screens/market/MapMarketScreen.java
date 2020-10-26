@@ -297,7 +297,7 @@ public class MapMarketScreen extends ScreenAdapter {
 
         table.row();
         table.add(backButton).colspan(3).padBottom(30);
-        table.debug();
+//        table.debug();
 
         Table main = new Table();
         main.add().width(1200 / 2f).height(1200 / ratio);

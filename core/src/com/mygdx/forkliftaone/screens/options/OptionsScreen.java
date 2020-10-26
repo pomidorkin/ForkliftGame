@@ -75,7 +75,7 @@ public class OptionsScreen extends MenuScreenBase {
         table.row();
         table.add(saveButton);
 
-        table.debug();
+//        table.debug();
 
         Table main = new Table();
         main.add(table).padTop(20f).padRight(20f).padLeft(20f).fill();

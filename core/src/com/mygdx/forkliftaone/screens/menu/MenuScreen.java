@@ -93,11 +93,11 @@ public class MenuScreen extends MenuScreenBase {
         table.add(optionsButton).padBottom(15).height((1200/ratio)/6);
         table.row();
         table.add(quitButton).height((1200/ratio)/6);
-        table.debug();
+//        table.debug();
 
         Table main = new Table();
         main.add(table).padTop(20f).padRight(20f).padLeft(20f).fill();
-        main.debug();
+//        main.debug();
         main.setFillParent(true);
 
         return main;

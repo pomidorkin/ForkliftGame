@@ -27,7 +27,7 @@ public class MessageDialog extends Dialog {
             add().height(((1200 / ratio / 2f) / 4f));
             button("OK", 1);
 
-            debug();
+//            debug();
         }
     }
 

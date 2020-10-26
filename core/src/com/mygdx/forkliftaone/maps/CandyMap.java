@@ -24,7 +24,7 @@ import com.mygdx.forkliftaone.utils.RegionNames;
 
 import java.util.Random;
 
-public class TestMap extends MapBase {
+public class CandyMap extends MapBase {
     private Vector2[][] boxCoords;
     private BoxFactory factory;
     private World world;
@@ -42,8 +42,8 @@ public class TestMap extends MapBase {
 
     private AssetManager assetManager;
 
-
-    public TestMap(World world, AssetManager assetManager, Camera camera, Stage stage, TextureAtlas atlas) {
+    // Изменить AssetPaths.TEST_TILED_MAP для загрузки другой карты
+    public CandyMap(World world, AssetManager assetManager, Camera camera, Stage stage, TextureAtlas atlas) {
         super(world, AssetPaths.TEST_TILED_MAP, new Vector2(10.5f, 24.5f),
                 52.8f, 11.2f, 4.2f, 1.52f, ((TextureRegion)atlas.findRegion(RegionNames.TRUCK_ONE)),
                 52.8f + 1.28f ,11.84f + 1.0f, 1.28f, 1.0f);
@@ -58,9 +58,9 @@ public class TestMap extends MapBase {
 
 //        this.backTexture = atlas.findRegion(RegionNames.LAYER_ONE);
 //        this.middleTexture = atlas.findRegion(RegionNames.LAYER_TWO);
-        this.backTexture = atlas.findRegion(RegionNames.TEST_BACKGROUND);
-        this.middleTexture = atlas.findRegion(RegionNames.LAYER_ONE);
-        this.frontTexture = atlas.findRegion(RegionNames.LAYER_TWO);
+        this.backTexture = atlas.findRegion(RegionNames.MAP_CANDY_BACK);
+        this.middleTexture = atlas.findRegion(RegionNames.MAP_CANDY_FRONT);
+        this.frontTexture = atlas.findRegion(RegionNames.MAP_CANDY_MIDDLE);
 
         boxCoords = new Vector2[4][];
         // Only one fuel will be spawned
@@ -319,12 +319,12 @@ public class TestMap extends MapBase {
 //        batch.begin();
         super.draw(batch, parentAlpha);
 
-            batch.draw(atlas.findRegion(RegionNames.ELEVATOR), // Texture
-                    elevatorMain.getPosition().x - elevatorWidth , elevatorMain.getPosition().y - elevatorHeight, // Texture position
-                    getOriginX(), getOriginY(), // Rotation point (width / 2, height /2 = center)
-                    elevatorWidth * 2f, elevatorHeight * 2f, // Width and height of the texture
-                    1f, 1f, //scaling
-                    0); // Rotation (radiants to degrees)
+        batch.draw(atlas.findRegion(RegionNames.ELEVATOR), // Texture
+                elevatorMain.getPosition().x - elevatorWidth , elevatorMain.getPosition().y - elevatorHeight, // Texture position
+                getOriginX(), getOriginY(), // Rotation point (width / 2, height /2 = center)
+                elevatorWidth * 2f, elevatorHeight * 2f, // Width and height of the texture
+                1f, 1f, //scaling
+                0); // Rotation (radiants to degrees)
 
         batch.draw(atlas.findRegion(RegionNames.DOOR), // Texture
                 door.getPosition().x - doorWidth , door.getPosition().y - doorHeight, // Texture position

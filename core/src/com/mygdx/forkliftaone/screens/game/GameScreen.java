@@ -247,7 +247,7 @@ public class GameScreen extends ScreenAdapter implements InputProcessor {
         viewport.apply();
         stage.draw();
         tmr.render();
-        b2dr.render(world, camera.combined);
+//        b2dr.render(world, camera.combined);
 
         // Testing UI
         dynamicViewport.apply();
@@ -575,7 +575,7 @@ public class GameScreen extends ScreenAdapter implements InputProcessor {
         table.row();
 
         // Debug enabled
-        table.debug();
+//        table.debug();
 
 //        // Testing Fuel icon
 //        bar = new ProgressBar(0, 100, 0.01f, false, skin);
@@ -633,7 +633,7 @@ public class GameScreen extends ScreenAdapter implements InputProcessor {
         localTable.add();
         localTable.add().height(1200/ratio/3).width(1200/ratio/3);
 
-        localTable.debug();
+//        localTable.debug();
 
         Table main = new Table();
         main.add(localTable).padTop(25f).padRight(25f).padLeft(25f).padBottom(25f).fill();
